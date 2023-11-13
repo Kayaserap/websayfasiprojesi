@@ -1,0 +1,1898 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+
+
+body{
+
+   background-color:white;
+}
+.cont{
+    height: 50px;
+    background-color:blanchedalmond ;
+
+}
+
+.container{
+
+
+
+ 
+}
+
+.gif-list{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 600px;
+}
+
+.gif{
+  
+display: inline-block;
+}
+.gif img{
+    height: 350px;
+    width: 350px;
+}
+
+
+
+
+.gif-yazi{
+  
+    width: 700px;
+    height: 40px;
+    text-align: center;
+display:  inline-block;
+
+}
+.gif-yazi h1{
+font-style: italic;
+text-align: center;
+color: rgb(13,56,81);
+}
+.logo-1  img {
+ 
+    width: 110px;
+    height: 80px;
+    border-radius: 50%;
+ 
+   }
+   .logo-1{
+     
+       display: flex;
+       justify-content: space-between;
+    
+    }
+.menu{
+
+
+    display: flex;
+    width: 300;
+    height:20px;
+    background-color:darkgrey ;
+    justify-content: end;
+ 
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+  
+    }
+ 
+    .list li{
+        display: flex;
+       
+       }
+   
+
+.list li a{
+    display: flex;
+    width: 150px;
+    height: 40px;
+  text-decoration: none;
+    color:white;
+    text-align: center;
+    line-height: center;
+    font-size: 18px;
+    font-family: 'Poppins Regular',sans-serif;
+}
+
+.list li a:hover{
+color: brown;
+ 
+}
+.searce{
+text-align: end;
+line-height: 40px;
+border-radius: 20%;
+
+
+
+}
+
+.searce button{
+
+
+    width: 60px;
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+  
+    border: 1px solid green;
+ 
+}
+.searce button:hover{
+color:brown;
+
+}
+
+
+.food{
+    height: 180vh;
+
+   margin: 30px;
+     text-align: center;
+ 
+}
+
+.food-baslik{
+    display: block;
+height: 60px;
+}
+.food-baslik h1{
+    font-size: 30px;
+
+ 
+    text-align: center;
+  
+ 
+  
+   font-family: 'Poppins Bold',sans-serif;
+   color: rgb(13,56,81);
+}
+
+
+.seciciler{
+    gap:10px;
+  
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+       .food-a{
+   
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        
+        width:370px ;
+        height: 470px;
+        background-color: burlywood;
+       text-decoration: none;
+      transition-duration: 4sn;
+      overflow: hidden; 
+          margin: 15px;
+        
+        }
+
+        .food-a img{
+    width:370px ;
+    height: 330px;
+    object-fit: cover;
+   
+  }
+
+
+.food-a img:hover{
+   
+width:390px ;
+height: 340px;
+
+}
+
+.food-a h1{
+
+    
+    font-size: 22px;
+    font-family: 'Poppins Regular',sans-serif;
+    align-items: center;
+    color: rgb(13,56,81);
+   
+}
+
+.food-a p{
+
+    font-size: 14px;
+    font-family: 'Poppins Regular',sans-serif;
+    align-items: start;
+    color: rgb(13,56,81);
+   
+}
+.video-size{
+
+ 
+
+}
+.video{
+height: 500px;
+display: flex;
+justify-content:space-evenly;
+background-color:antiquewhite;
+align-items: center;
+margin:20px ;
+gap: 20px;
+padding: 20px;
+}
+
+.video-size1{
+    display: block;
+ 
+    width: 510px;
+    height: 350px;
+    }
+
+.diy-list{
+
+display: flex;
+justify-content:center;
+
+
+}
+
+   .diyet-list{
+  
+   width: 1100px;
+ 
+ 
+    height: 400px;
+   
+   }
+   
+
+
+  
+
+   
+   .diy-baslik h1{
+    display:block;
+    color: rgb(13,56,81);
+    font-size: 25px;
+    text-align: center;
+   padding: 15px;
+   margin: 10px;
+   
+
+   
+
+   }
+ .diyet-cont{
+    display: flex;
+    justify-content: space-around;
+   
+
+
+ }
+   .diyet-list a {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+        width: 150px;
+       height: 180px;
+       text-decoration: none;
+     
+       background-color: rgb(238,238,238);
+  
+      
+}
+   .diyet-list a img{
+   
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin: 20px;
+     gap: 10px;
+ 
+ 
+  
+
+    }
+ 
+
+
+
+
+ 
+
+
+.diyet-list a p{
+    text-align: center;
+    color: #000;;
+    background-color: grey;
+    line-height: 14px;
+    font-size: 15px;
+    background-color: rgb(238,238,238) ;
+   
+}
+   
+.end{
+
+display: flex;
+    background-color:darkgrey  ;
+justify-content: center;
+align-items: center;
+    width: 100%;
+   
+}
+
+
+.footer-menu{
+
+text-align: center;
+}
+.son{
+
+display:flex;
+height: 50px;
+
+align-items: end;
+justify-content: space-between;
+
+}
+.son ul{
+  
+display: flex;
+    list-style-type: none;
+
+   
+
+   height: 30px;
+  
+}
+.son ul li{
+  display: flex;
+ height: 20px;
+ justify-content:space-between;
+ align-items: end;
+ margin: 10px;
+padding: 5px;
+    
+   
+ }
+
+ .son ul li a {
+
+font-weight: 200;
+text-decoration: none;
+color: white;
+text-align: center;
+line-height: center;
+font-size: 15px;
+
+
+   
+ }
+ .son ul li a:hover{
+
+
+ color: #000;
+}
+.media{
+ display:inline-block;
+text-align: center;
+
+
+}
+.media-list{
+
+ display: flex;
+
+   gap: 12px;
+  list-style-type: none;
+ 
+  
+}
+.media-list li{
+    display: flex;
+    height: 60px;
+    justify-content:center;
+    align-items: end;
+   
+       
+
+
+
+}
+
+.media-list li a{
+    color: white;
+   
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*!bize ulasın  */
+
+.ilt{
+display: flex;
+justify-content: space-evenly;
+
+
+}
+.iletisim{
+   
+   
+   
+    display:block;
+
+  
+  text-align: center;
+  
+
+
+}
+.navigator{
+    height: 400px;
+    width: 1200px;
+   
+
+    margin: 10px;
+ 
+    padding: 10px;
+       gap: 20px;
+
+       overflow:hidden
+}
+    
+
+   
+
+.iletisim-1{
+display: block;
+
+    
+ 
+
+}
+.iletisim-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+     
+    
+
+
+
+}
+.iletisim-2{
+   display:flex ;
+  width: 550px;
+   height: 420px;
+   justify-content: center;
+
+
+ 
+ 
+ 
+}
+
+.table{
+ 
+    
+  
+   width: 900px;
+  height: 425px;
+  padding: 10px;
+
+
+
+
+}
+
+
+.table input{
+
+width: 80%;
+height: 30px;
+margin: 12px;
+padding: 5px;
+text-align:start;
+
+}
+.table input:nth-last-child(2)  {
+    width: 423px;
+    height: 130px;
+
+
+
+
+
+}
+
+
+.table button{
+
+    width: 100px;
+    height: 35px;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !öneriler */
+
+.content-list{
+background-color: antiquewhite;
+    display: flex;
+  
+    width: 100%;
+  height: 160px;
+    justify-content: space-around;
+gap: 20px;
+padding: 10px;
+margin: 10px;
+  
+}
+   
+   
+   
+
+content-list a {
+display: flex;
+
+  
+
+
+
+
+}
+.content-list a img {
+   
+
+
+    display:inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow:hidden;
+    justify-content: center;
+    
+}
+
+
+.book-menu{
+ 
+    display:flex;
+   text-align: center;
+    height: 550px;
+   justify-content: center;
+
+  
+}
+
+.book-baslik{
+display: block;
+text-align: center;
+   height: 70px;
+}
+.book-baslik h1{
+    font-family: 'Poppins Regular',sans-serif;
+  font-size: 30px;
+  color: rgb(13,56,81);
+ 
+}
+
+.book-baslik h1:hover{
+
+}
+
+
+.book{
+width: 1100px;
+height: 500px;
+padding: 30px;
+
+display:inline-block;
+
+border-radius: 20%;
+text-align: center;
+
+
+}
+
+
+.book-list{
+list-style-type: none;
+display:block;
+align-items: center;
+gap: 10px;
+
+}
+
+.book-list li{
+  
+ gap: 10px;
+    border: 5px solid blanchedalmond;
+    border-radius: 30%;
+
+}
+
+.book-list li a{
+font-size: 20px;
+text-decoration: none;
+color: rgb(13,56,81);
+font-family: 'Poppins Regular',sans-serif;
+
+}
+
+.book-list li a:hover{
+
+color:cadetblue;
+
+}
+.yorum{
+    display:inline-block;
+  align-items: center;
+  width: 1000px;
+ 
+  padding: 10px;
+}
+.yorum p{
+font-size: 20px;
+word-spacing:8px;
+text-align:center;
+color: rgb(13,56,81);
+font-family: 'Poppins Regular',sans-serif;
+line-height:30px;
+
+
+}
+
+
+/* ! sıkca sorulan sorular */
+.soru-page{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 1400px;
+  text-align: center;
+
+}
+.sorular{
+   display:flex;
+   flex-direction: column;
+  border: 3px solid burlywood;
+  text-align: center;
+  width: 1100px;
+  height: 1100px;
+  align-items: center;
+  justify-content: center;
+
+}
+.sorular h1{
+font-size: 30px;
+color: rgb(13,56,81);
+font-family: 'Poppins Regular',sans-serif;
+
+}
+
+.sorular p{
+  
+    text-align: center;
+font-size: 18px;
+font-family: 'Poppins Regular',sans-serif;
+color: rgb(13,56,81);
+line-height:30px;
+
+}
+
+       
+/*!responsive */
+@media (max-width:1000px) {
+
+
+    .menu {
+
+
+
+        width: 100%;
+        height: 19px;
+
+    }
+
+
+
+
+
+
+
+    .list li a {
+
+        width: 150px;
+        height: 38px;
+
+        font-size: 18px;
+
+    }
+
+    .searce {
+
+        line-height: 23px;
+
+
+
+
+    }
+
+    .searce button {
+
+
+        width: 40px;
+
+
+
+
+
+    }
+
+    .gif-list {
+
+
+
+        height: 480px;
+    }
+
+    .gif {}
+
+
+
+
+    .gif-yazi {
+
+        width: 230px;
+        height: 40px;
+
+
+    }
+
+    .logo-1 img {
+
+        width: 90px;
+        height: 70px;
+
+
+    }
+
+
+
+
+
+    .food {
+
+
+        margin: 20px;
+
+        height: 230vh;
+    }
+
+    .food-baslik {
+
+        height: 60px;
+    }
+
+    .food-baslik h1 {
+        font-size: 20px;
+
+
+
+
+
+    }
+
+
+    .seciciler {
+        gap: 10px;
+
+    }
+
+    .food-a {
+
+
+        width: 340px;
+        height: 400px;
+
+        margin: 10px;
+
+    }
+
+    .food-a img {
+        width: 340px;
+        height: 300px;
+        object-fit: cover;
+
+    }
+
+
+
+    .food-a h1 {
+
+
+        font-size: 20px;
+
+    }
+
+    .food-a p {
+
+        font-size: 14px;
+
+
+    }
+
+    .video {
+        height: 300px;
+
+        margin: 20px;
+        gap: 10px;
+    }
+
+    .video-size1 {
+        display: block;
+
+        width: 500px;
+        height: 350px;
+    }
+
+
+
+    .diyet-list {
+
+        width: 800px;
+
+
+        height: 400px;
+
+    }
+
+
+
+
+
+
+    .diy-baslik h1 {
+
+        padding: 10px;
+        margin: 10px;
+
+
+
+
+    }
+
+
+
+
+
+.diyet-list a img {
+
+    width: 60px;
+    height: 60px;
+
+    margin: 15px;
+    gap: 8px;
+
+
+
+
+}
+
+
+
+
+.diyet-cont{
+height: 1500px;
+}
+
+
+
+.diyet-list a p {
+
+    line-height: 12px;
+    font-size: 13px;
+
+
+}
+
+.end {
+
+
+    width: 1000px;
+}
+
+
+
+.son {
+
+
+    height: 60px;
+
+}
+
+.son ul {
+
+
+
+
+
+    height: 30px;
+
+}
+
+.son ul li {
+
+    height: 20px;
+
+    margin: 8px;
+    padding: 5px;
+
+
+}
+
+.son ul li a {
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+
+.media-list li {
+
+    height: 60px;
+
+
+
+
+
+
+}
+
+.media-list li a {
+
+
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* size ulaşalım */
+
+.navigator {
+    height: 350px;
+    width: 950px;
+
+
+    margin: 5px;
+
+    padding: 5px;
+    gap: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.iletisim-2 {
+
+    width: 500px;
+    height: 400px;
+
+
+
+
+
+
+}
+
+.table {
+
+
+
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+
+
+
+
+}
+
+.table input:nth-last-child(2) {
+    width: 225px;
+    height: 125px;
+
+
+
+
+
+}
+
+
+.table button {
+
+    width: 100px;
+    height: 35px;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+/*! öneriler */
+.content-list {
+
+    width: 800px;
+    height: 860px;
+
+    gap: 15px;
+    padding: 7px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-list a img {
+
+
+
+
+    width: 120px;
+    height: 130px;
+
+
+
+}
+
+
+.book-menu {
+
+    height: 510px;
+
+
+
+}
+
+.book-baslik {
+
+    height: 60px;
+}
+
+.book-baslik h1 {
+
+    font-size: 26px;
+
+
+}
+
+.book-baslik h1:hover {}
+
+
+.book {
+    width: 1000px;
+    height: 450px;
+    padding: 20px;
+
+
+
+
+}
+
+
+.book-list {
+
+    gap: 8px;
+
+}
+
+.book-list li {
+
+    gap: 8px;
+
+
+
+}
+
+.book-list li a {
+    font-size: 20px;
+
+
+}
+
+
+.yorum {
+
+    width: 850px;
+
+    padding: 5px;
+}
+
+.yorum p {
+    font-size: 18px;
+    word-spacing: 7px;
+
+
+    line-height: 26px;
+
+
+}
+
+
+
+
+
+/* .sorular */
+
+.sorular{
+
+    position: absolute;
+    top:40px;
+    width: 1000px;
+    height: 1000px;
+}
+.soru-page{
+
+    height: 1200px;
+
+ 
+ }
+
+ 
+ .sorular h1{
+ font-size: 27px;
+
+ 
+ }
+ 
+ .sorular p{
+   
+
+ line-height:27px;
+ 
+ }
+ 
+}
+
+
+@media (max-width:600px) {
+ body{
+   
+ }
+    .menu {
+
+
+
+        width: 250;
+        height: 19px;
+
+    }
+
+
+
+
+
+
+
+    .list li a {
+
+        width: 90px;
+        height: 38px;
+
+        font-size: 14px;
+
+    }
+ 
+
+
+
+
+
+
+
+    .searce {
+
+        line-height: 24px;
+
+
+
+
+    }
+
+    .searce button {
+
+
+        width: 30px;
+
+
+
+
+
+    }
+
+
+
+
+    .gif-list {
+
+
+
+        height: 340px;
+    }
+
+    .gif img{
+        height: 150px;
+        width: 150px;
+    }
+    
+
+    .gif-yazi {
+
+        width: 180px;
+        height: 40px;
+
+
+    }
+
+    .logo-1 img {
+
+        width: 90px;
+        height: 70px;
+
+
+    }
+
+
+
+
+
+    .food {
+
+        height:200vh ;
+        margin: 0px;
+
+       
+    }
+
+    .food-baslik {
+
+        height: 60px;
+    }
+
+    .food-baslik h1 {
+        font-size: 20px;
+
+
+
+
+
+    }
+
+
+    .seciciler {
+        gap: 10px;
+
+    }
+
+    .food-a {
+
+
+        width: 340px;
+        height: 400px;
+
+        margin: 10px;
+
+    }
+
+    .food-a img {
+        width: 340px;
+        height: 300px;
+        object-fit: cover;
+
+    }
+
+
+
+    .food-a h1 {
+
+
+        font-size: 20px;
+
+    }
+
+    .food-a p {
+
+        font-size: 14px;
+
+
+    }
+
+    .video {
+    
+    }
+
+    .video-size1 {
+        display: block;
+
+        width: 350px;
+        height: 300px;
+    }
+
+
+
+    .diyet-list {
+
+        width: 300px;
+
+
+        height: 400px;
+
+    }
+
+
+
+
+
+
+    .diy-baslik h1 {
+
+        padding: 10px;
+        margin: 10px;
+
+
+
+
+    }
+
+
+
+
+
+.diyet-list a img {
+
+    width: 60px;
+    height: 60px;
+
+    margin: 15px;
+    gap: 8px;
+
+
+
+
+}
+
+
+.diyet-con{
+height: 1500px;
+}
+
+
+
+
+
+
+.diyet-list a p {
+
+    line-height: 12px;
+    font-size: 13px;
+
+
+}
+
+.end {
+
+
+    width: 1000px;
+}
+
+
+
+.son {
+
+
+    height: 60px;
+
+}
+
+.son ul {
+
+
+
+
+
+    height: 30px;
+
+}
+
+.son ul li {
+
+    height: 20px;
+
+    margin: 8px;
+    padding: 5px;
+
+
+}
+
+.son ul li a {
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+
+.media-list li {
+
+    height: 60px;
+
+
+
+
+
+
+}
+
+.media-list li a {
+
+
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iletisim {
+
+
+    width: 300px;
+}
+
+
+
+
+
+.navigator {
+    height: 200px;
+    width: 700px;
+
+
+    margin: 5px;
+
+    padding: 5px;
+    gap: 10px;
+
+
+}
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+.iletisim-2 {
+
+    width: 500px;
+    height: 400px;
+
+
+
+
+
+
+}
+
+.table {
+
+
+
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+
+
+
+
+}
+
+.table input:nth-last-child(2) {
+    width: 225px;
+    height: 125px;
+
+
+
+
+
+}
+
+
+.table button {
+
+    width: 80px;
+    height: 30px;
+    gap: 5px;
+    margin: 10px;
+}
+
+
+
+.content-list {
+
+    width: 500px;
+    height: 140px;
+
+    gap: 15px;
+    padding: 7px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-list a img {
+
+
+
+
+    width: 100px;
+    height: 100px;
+
+
+
+}
+
+
+.book-menu {
+
+    height: 350px;
+
+
+
+}
+
+.book-baslik {
+
+    height: 50px;
+}
+
+.book-baslik h1 {
+
+    font-size: 18px;
+
+
+}
+
+
+
+
+.book {
+    width: 600px;
+    height: 650px;
+    padding: 15px;
+
+
+
+
+}
+
+
+.book-list {
+
+    gap: 5px;
+
+}
+
+.book-list li {
+
+    gap: 5px;
+
+
+
+}
+
+.book-list li a {
+    font-size: 15px;
+
+
+}
+
+
+.yorum {
+
+    width: 250px;
+
+    padding: 0px;
+}
+
+.yorum p {
+    font-size: 12px;
+    word-spacing: 5px;
+
+
+    line-height: 15px;
+
+
+}
+
+
+
+.end {
+
+
+    width: 800px;
+}
+
+
+
+.son {
+
+
+    height: 50px;
+
+}
+
+.son ul {
+
+
+
+
+
+    height: 30px;
+
+}
+
+.son ul li {
+
+    height: 20px;
+
+    margin: 8px;
+    padding: 5px;
+
+
+}
+
+.son ul li a {
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+.media-list {
+
+
+
+    gap: 1px;
+
+
+
+}
+
+.media-list li {
+
+    height: 60px;
+
+
+
+
+
+
+}
+
+.media-list li a {
+
+    
+    font-size: 30px;
+
+}
+
+
+
+
+}                       
+
+
+
+
+@media (max-width:400px) {   
+
+    .iletisim {
+
+
+        width: 200px;
+    }
+    
+    
+    
+    
+    
+    .navigator {
+        height: 200px;
+        width: 700px;
+    
+    
+      
+    
+    }
+
+
+
+    .iletisim-2 {
+
+        width: 500px;
+        height: 400px;
+    
+    
+    
+    
+    
+    
+    }
+    
+    .table {
+    
+    
+    
+        width: 250px;
+        height: 30px;
+        padding: 10px;
+    
+    
+    
+    
+    }
+    
+    .table input:nth-last-child(2) {
+        width: 180px;
+        height: 90px;
+    
+    
+    
+    
+    
+    }
+    
+    
+    .table button {
+    
+        width: 50px;
+        height: 30px;
+       
+        margin: 5px;
+    }
+    .soru-page{
+
+    height: 1200px;
+
+ 
+ }
+
+ 
+ .sorular h1{
+ font-size: 20px;
+
+ 
+ }
+ 
+ .sorular p{
+   
+
+ line-height:24px;
+ 
+ }
+ .sorular{
+
+    position: absolute;
+    top:40px;
+    width: 700px;
+    height: 1000px;
+}
+    
+}
